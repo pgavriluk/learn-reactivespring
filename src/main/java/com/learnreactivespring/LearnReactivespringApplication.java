@@ -8,6 +8,7 @@ public class LearnReactivespringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearnReactivespringApplication.class, args);
+//		System.out.println(Runtime.getRuntime().availableProcessors());
 	}
 
 }

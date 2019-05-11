@@ -19,8 +19,12 @@ repositories {
 	mavenCentral()
 }
 
+test {
+	exclude "com/learnreactivespring/fluxandmonoplayground/**"
+}
+
 dependencies {
-//	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
